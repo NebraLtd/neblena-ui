@@ -86,10 +86,10 @@ const Dashboard = () => {
             <Banner />
             <div style={styles.flex}>
                 <div style={styles.leftCol}>
-                    <Fleets value={fleets ? fleets : []}/>
+                    Dashboard fleet listing disabled to improve performance.
                 </div>
                 <div style={styles.rightCol}>
-                    <Devices value={devices ? devices : []}/>
+                    Dashboard device listing disabled to improve performance.
                 </div>
             </div>
         </>
